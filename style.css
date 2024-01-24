@@ -1,1 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: left;
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+body {
+  color: black;
+  padding: 30pt;
+}
+p {
+  font-weight: lighter;
+  text-indent: 25pt;
+  font-size: 10pt;
+  line-height: 1.00;
+  overflow: scroll;
+}
+nav {
+  background-color: aliceblue;
+  padding: 15pt;
+  width: auto;
+  border-style: solid;
+}
+.img1 { background-image: url("smile.png"); }
+table, th, tr, td{
+  text-align: center;
+  width: 100%;
+  border: 1pt solid black;
+}
+button {
+  opacity: 75%;
+  border-radius: 5pt;
+}
+a[href] {
+  color: skyblue;
+}
+a:hover {
+  color: blue;
+}
+a:visited {
+  color: violet;
+}
+.border {
+  border-radius: 15pt;
+}
+.folder {
+  position: sticky;
+}
+.container {
+  height: 150px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+}
 
